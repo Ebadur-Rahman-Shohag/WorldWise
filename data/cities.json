@@ -1,16 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Saint-Calais",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2023-12-20T09:19:06.735Z",
+      "cityName": "Monaco",
+      "country": "Monaco",
+      "emoji": "🇲🇨",
+      "date": "2023-12-20T11:32:07.662Z",
       "notes": "",
       "position": {
-        "lat": "47.90161354142077",
-        "lng": "0.7250976562500001"
+        "lat": "43.61221676817573",
+        "lng": "7.492675781250001"
       },
       "id": 1
+    },
+    {
+      "cityName": "Cluis",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-12-20T11:33:13.270Z",
+      "notes": "",
+      "position": {
+        "lat": "46.51351558059737",
+        "lng": "1.7358398437500002"
+      },
+      "id": 2
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-12-20T11:33:19.989Z",
+      "notes": "",
+      "position": {
+        "lat": "51.536085601784755",
+        "lng": "0.28564453125000006"
+      },
+      "id": 3
     }
   ]
 }
