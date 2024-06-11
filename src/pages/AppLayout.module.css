@@ -1,7 +1,15 @@
+/* AppLayout.module.css */
 .app {
   height: 100vh;
   padding: 2.4rem;
   overscroll-behavior-y: none;
   display: flex;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    padding: 1.2rem;
+  }
 }

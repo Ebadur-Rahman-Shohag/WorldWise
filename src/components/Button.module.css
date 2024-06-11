@@ -1,3 +1,4 @@
+/* Button.module.css */
 .btn {
   color: inherit;
   text-transform: uppercase;
@@ -32,4 +33,11 @@
   background-color: var(--color-brand--2);
   color: var(--color-dark--1);
   box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}
+
+@media (max-width: 768px) {
+  .position {
+    font-size: 1.2rem;
+    bottom: 2rem;
+  }
 }
