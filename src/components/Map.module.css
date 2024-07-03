@@ -1,8 +1,16 @@
+/* Map.module.css */
 .mapContainer {
   flex: 1;
   height: 100%;
   background-color: var(--color-dark--2);
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .mapContainer {
+    flex-basis: auto;
+    height: 100%; /* Take full height of its container */
+  }
 }
 
 .map {

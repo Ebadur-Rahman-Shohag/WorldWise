@@ -11,5 +11,17 @@
   .app {
     flex-direction: column;
     padding: 1.2rem;
+    height: 100vh;
+  }
+
+  .sidebar,
+  .mapContainer {
+    flex: 1;
+    height: 50%;
+    margin-bottom: 1.2rem;
+  }
+
+  .mapContainer {
+    margin-bottom: 0; /* Ensure no extra margin for the last item */
   }
 }
